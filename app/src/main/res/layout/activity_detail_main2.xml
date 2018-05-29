@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffBE80FF"
+    android:descendantFocusability="beforeDescendants"
+    tools:context="vn.edu.topica.quanlychitieu.DetailMain2Activity">
+
+    <EditText
+        android:id="@+id/txtDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nh_p_t_n_h_ng_mua"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/gi"
+        android:inputType="number" />
+
+    <ImageButton
+        android:id="@+id/btnSent"
+        android:layout_width="71dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:background="#ff7e51c2"
+        android:descendantFocusability="beforeDescendants"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/mon" />
+</LinearLayout>

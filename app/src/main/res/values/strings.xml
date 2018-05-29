@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QLCT</string>
+    <string name="todo">TODO</string>
+    <string name="_0_vn">0 VNĐ</string>
+    <string name="s_d_t_i_kho_n">SỐ DƯ TÀI KHOẢN</string>
+    <string name="nh_p_v_o_s_ti_n_v_a_g_i">Nhập vào số tiền vừa gửi:</string>
+    <string name="tap_here">tap here</string>
+    <string name="g_i">Gửi</string>
+    <string name="ch_n_s_ti_n">Chọn số tiền</string>
+    <string name="ok">OK</string>
+    <string name="r_t_ti_n">rút tiền</string>
+    <string name="x_c_nh_n_s_kh_c">Xác nhận số khác</string>
+    <string name="s_kh_c">số khác</string>
+    <string name="l_u">lưu</string>
+    <string name="s_i_n_tho_i">số điện thoại</string>
+    <string name="s_i_n_tho_i_ng_i_qu_n_l">Số điện thoại người quản lý:</string>
+    <string name="nh_p_s_i_n_tho_i_kh_c">nhập số điện thoại khác</string>
+    <string name="nh_p_v_o_chi_ti_u_c_a_h_m_nay">nhập vào chi tiêu của hôm nay</string>
+    <string name="gi">giá</string>
+    <string name="nh_p_t_n_h_ng_mua">nhập tên hàng đã mua</string>
+
+    <string name="chi_ti_t_chi_ti_u">CHI TIẾT CHI TIÊU</string>
+
+
+</resources>

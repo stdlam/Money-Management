@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    android:background="#ffBE80FF"
+    android:descendantFocusability="beforeDescendants"
+
+    tools:context="vn.edu.topica.quanlychitieu.Main_Gui_Activity">
+
+    <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nh_p_v_o_s_ti_n_v_a_g_i"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tap_here"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnGui"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:background="#ff7e51c2"
+
+        android:text="@string/g_i" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_i_n_tho_i_ng_i_qu_n_l"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtSdtNql"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/txtSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nh_p_s_i_n_tho_i_kh_c"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:background="#ff7e51c2"
+        android:text="@string/l_u" />
+
+</LinearLayout>
